@@ -1,0 +1,67 @@
+@import '../../_sass/abstracts/_variables.scss';
+
+.login-right-pannel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+
+  & > h1 {
+    margin-bottom: 20px;
+    font-family: $font-family-mobile-form-title;
+    font-size: $font-size-mobile-form-title;
+  }
+
+  &-form-group {
+    display:flex;
+    flex-direction: column;
+
+    & > input {
+      border: none;
+      border-bottom: 4px solid $color-blue;
+      font-family: $font-family-mobile-form-input;
+      font-size: $font-size-mobile-form-input;
+
+      background-color: $color-white-2;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  }
+
+  &-btns {
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+    &-login, &-oauth {
+      font-family: $font-family-mobile-form-btn;
+      font-size: $font-size-mobile-form-btn;
+    }
+
+    &-login {
+      background-color: $button-color-desktop-login;
+      color: $color-white;
+      border: none;
+
+      padding: 10px 0;
+      margin: 10px 0;
+    }
+
+    &-oauth {
+      background-color: $button-color-desktop-oauth;
+      color: $color-white;
+      border: none;
+
+      padding: 10px 0;
+      margin: 10px 0;
+    }
+
+    &-register {
+      text-align: center;
+      text-decoration: underline;
+
+      font-family: $font-size-mobile-form-no-account;
+      font-size: $font-size-mobile-form-no-account;
+    }
+  }
+}

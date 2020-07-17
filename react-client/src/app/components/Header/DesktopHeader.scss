@@ -1,0 +1,70 @@
+/*
+header-desktop
+  header-desktop-logo
+  header-desktop-searchbar
+  header-desktop-navigation
+*/
+
+@import '../../_sass/abstracts/_variables.scss';
+
+.header-desktop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $color-white;
+
+  padding: 20px 0;
+
+  &-searchbar {
+    border-radius: 120px;
+    overflow: hidden;
+    display: flex;
+
+
+    & input {
+      border: none;
+      background-color: $color-white-2;
+      color: $color-black-secondary;
+
+      min-width: 450px;
+      max-width: 700px;
+
+      padding: 10px 20px;
+    }
+
+    & button {
+      border: none;
+      background-color: $color-light-red;
+      color: $color-white;
+      font-family: $font-family-desktop-header-button;
+      font-size: $font-size-desktop-header-button;
+
+      text-transform: uppercase;
+      padding: 10px 50px;
+    }
+  }
+
+  &-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > a {
+      font-family: $font-family-desktop-header-nav;
+      font-size: $font-size-desktop-header-nav;
+      color: $color-blue;
+
+      padding: 20px;
+
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+
+    &-icon {
+      width: $icon-size-desktop-header;
+      height: $icon-size-desktop-header;
+    }
+  }
+}

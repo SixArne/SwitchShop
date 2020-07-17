@@ -1,0 +1,34 @@
+/*
+mobile-footer
+  mobile-footer-nav
+    mobile-footer-nav-item
+  mobile-footer-copyright
+*/
+
+@import '../../_sass/abstracts/_variables.scss';
+
+.footer-mobile {
+  background-color: $color-light-grey;
+
+  &-nav {
+    display: flex;
+    flex-direction: column;
+
+    &-item {
+      color: $color-dark-grey;
+      font-family: $font-family-Tomorrow;
+      font-size: $font-size-mobile-footer-item;
+      text-align: center;
+      padding: 30px 0;
+    }
+  }
+
+  &-copyright {
+    background-color: $color-pink-red;
+    color: $color-white;
+    font-family: $font-family-Barlow;
+    font-size: $font-size-mobile-footer-copyright;
+    text-align: center;
+    padding: 20px 0;
+  }
+}

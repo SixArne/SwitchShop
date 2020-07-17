@@ -1,0 +1,46 @@
+@import '../../../_sass/abstracts/_variables.scss';
+
+.sidebar-menu {
+  list-style: none;
+  background-color: $color-black;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+
+  &__item {
+    text-align: center;
+    padding: 40px 0;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transition: all 0.2s ease-in-out;
+      background-color: $color-blue;
+      cursor: pointer;
+    }
+
+    &:last-child {
+      width: 100%;
+      bottom: 0;
+      position:absolute;
+      background-color: $color-dark-red;
+
+      &:hover {
+        background-color: $color-red;
+      }
+    }
+  }
+
+  &__item > a {
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 24px;
+    padding-left: 5px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

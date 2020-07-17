@@ -1,0 +1,119 @@
+$color-black: #32383e;
+$color-black-secondary: #3c444cv;
+$color-dark-grey: #4C5154;
+$color-white: #fff;
+$color-white-2: #f1f1f1;
+$color-light-grey: #E6E6E6;
+$color-purple: #7E57C5;
+$color-green: #5AB946;
+$color-red: #FE6054;
+$color-dark-red: #E63E4C;
+$color-light-red: #FE6054;
+$color-pink-red: #FF4554;
+$color-orange: #F58732;
+$color-blue: #008DA3;
+$color-light-blue: #00BBDE;
+$color-gray: #E6E6E6;
+
+$font-family-Tomorrow: 'Tomorrow', sans-serif;
+$font-family-Barlow: 'Barlow Condensed', sans-serif;
+
+// Mobile Footer
+$font-size-mobile-footer-copyright: 12px;
+$font-size-mobile-footer-item: 16px;
+
+// Mobile navigation
+$mobile-header-img-size: 25px;
+$mobile-nav-close-size: 30px;
+$font-size-mobile-nav: 24px;
+$mobile-nav-item-color: $color-blue;
+
+// Desktop Footer
+$font-size-desktop-footer-copyright: 24px;
+$font-size-desktop-footer-item: 24px;
+$font-family-desktop-footer-copyright: $font-family-Tomorrow;
+$font-family-desktop-footer-item: $font-family-Barlow;
+$image-size-desktop-footer-character: 100px;
+$font-color-desktop-footer-item: $color-blue;
+$font-color-desktop-footer-copyright: $color-white;
+$footer-desktop-copyright-color: $color-light-blue;
+
+// Desktop Header
+$font-family-desktop-header-button: 'Tomorrow', sans-serif;
+$font-size-desktop-header-button: 20px;
+$font-family-desktop-header-input: 'Barlow', sans-serif;
+$font-size-desktop-header-input: 14px;
+$font-family-desktop-header-nav: 'Tomorrow', sans-serif;
+$font-size-desktop-header-nav: 24px;
+$icon-size-desktop-header: 25px;
+
+// Desktop Login
+$font-family-desktop-form-input: 'Barlow', sans-serif;
+$font-size-desktop-form-input: 14px;
+
+$font-family-desktop-form-title: 'Tomorrow', sans-serif;
+$font-size-desktop-form-title: 24px;
+
+$font-family-desktop-form-btn: 'Tomorrow', sans-serif;
+$font-size-desktop-form-btn: 16px;
+
+$font-family-desktop-form-no-account: 'Barlow', sans-serif;
+$font-size-desktop-form-no-account: 12px;
+
+$button-color-desktop-login: $color-blue;
+$button-color-desktop-oauth: $color-light-blue;
+
+$image-size-desktop-login: 30rem;
+
+// Mobile Login
+$font-family-mobile-form-input: 'Barlow', sans-serif;
+$font-size-mobile-form-input: 16px;
+
+$font-family-mobile-form-title: 'Tomorrow', sans-serif;
+$font-size-mobile-form-title: 18px;
+
+$font-family-mobile-form-btn: 'Tomorrow', sans-serif;
+$font-size-mobile-form-btn: 11px;
+
+$font-family-mobile-form-no-account: 'Barlow', sans-serif;
+$font-size-mobile-form-no-account: 8px;
+
+$button-color-desktop-login: $color-blue;
+$button-color-desktop-oauth: $color-light-blue;
+
+
+$font-product-card-title: 16px;
+$font-product-card-tags: 16px;
+$font-product-card-price: 17px;
+$font-product-card-button: 12px;
+$font-filter-title: 22px;
+
+/*
+ * Bootstrap
+ */
+$theme-colors: (
+  "primary": $color-purple,
+  "danger": $color-red,
+  "ahs-purple": $color-purple
+);
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 48px !default;
+$grid-row-columns: 6 !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1360px
+) !default;
+
+$sm: 540px;

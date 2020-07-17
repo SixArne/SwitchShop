@@ -1,0 +1,16 @@
+export const LANDING = '/';
+export const PRODUCT = '/product/:id';
+export const REGISTER ='/register';
+export const LOGIN = '/login';
+export const CONTACT = '/contact';
+export const CHECKOUT = '/checkout';
+export const POSTS = '/posts';
+export const AUTH_SIGN_IN = '/auth/signin';
+export const AUTH_SIGNUP = '/auth/signup';
+export const BACKOFFICE_DASHBOARD = '/backstage/dashboard';
+export const BACKOFFICE_LANDING = '/backstage';
+export const BACKOFFICE_ORDERS = '/backstage/orders';
+export const BACKOFFICE_ORDER = '/backstage/order/';
+export const BACKOFFICE_USERS = '/backstage/users';
+export const BACKOFFICE_PRODUCTS = '/backstage/products';
+export const BACKOFFICE_PRODUCT = '/backstage/products/';

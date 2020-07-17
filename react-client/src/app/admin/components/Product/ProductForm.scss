@@ -1,0 +1,21 @@
+@import '../../../_sass/abstracts/_variables.scss';
+
+.form {
+  background-color: $color-black;
+  color: $color-white;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+
+  & > input {
+      border: none;
+      border-left: 5px solid $color-dark-red;
+      padding: 10px;
+      background-color: $color-black-secondary;
+      color: $color-white;
+  }
+}

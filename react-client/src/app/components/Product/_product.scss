@@ -1,0 +1,65 @@
+@import '../../_sass/abstracts/index';
+
+.product-card {
+  background-color: $color-white;
+  border-radius: 20px;
+  min-width: 250px;
+  max-width: 280px;
+  min-height: 400px;
+  max-height: 450px;
+  overflow: hidden;
+  display:flex;
+  margin: 25px;
+}
+
+.product-container {
+  display:flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-card-title {
+  font-size: $font-product-card-title;
+}
+
+.card-categorie, .card-pegi {
+  font-size: $font-product-card-tags;
+}
+
+.product-card-image {
+  margin-bottom: 20px;
+}
+
+.product-card-price {
+  font-size: $font-product-card-price;
+  margin: 0;
+}
+
+.product-card-add {
+  font-size: $font-product-card-button;
+  border: none;
+  min-width: 100px;
+  max-width: 130px;
+  height: 40px;
+  background-color: $color-light-blue;
+  color: $color-white;
+  border-radius: 20px;
+}
+
+.product-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-main {
+  background-color: $color-gray;
+  display:flex;
+}
+
+.page-products {
+  display:flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,52 @@
+/*
+footer-desktop
+  footer-desktop-navigation
+    footer-desktop-navigation-image
+    footer-desktop-navigation-list
+  footer-desktop-copyright
+*/
+
+@import '../../_sass/abstracts/_variables.scss';
+
+.footer-desktop {
+  &-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 40px 0;
+    
+    &-image {
+      & img {
+        width: $image-size-desktop-footer-character;
+        height: $image-size-desktop-footer-character;
+      }
+    }
+
+    &-list {
+      & a {
+        font-family: $font-family-Tomorrow;
+        font-size: $font-size-desktop-footer-item;
+        color: $font-color-desktop-footer-item;
+
+        padding: 0 30px;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &-copyright {
+    display: flex;
+    justify-content: center;
+
+    background-color: $footer-desktop-copyright-color;
+    font-family: $font-family-Barlow;
+    font-size: $font-size-desktop-footer-copyright;
+    color: $font-color-desktop-footer-copyright;
+
+    padding: 20px 0;
+  }
+}

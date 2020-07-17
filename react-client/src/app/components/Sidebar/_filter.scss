@@ -1,0 +1,48 @@
+@import '../../_sass/abstracts/index';
+
+.product-filter {
+  background-color: $color-white;
+  margin: 25px 0px;
+  min-width: 300px;
+  max-width: 600px;
+  flex-shrink: 1;
+}
+
+.filter-container {
+  padding: 20px 20px 20px 30px;
+}
+
+.prize-filters {
+  display:flex;
+  flex-direction: column;
+
+  & > input {
+    border: none;
+    padding: 10px 10px;
+    margin: 5px 0px;
+  }
+}
+
+.filter-button {
+  width: 100%;
+  border: none;
+  background-color: $color-light-blue;
+  text-transform: uppercase;
+  color: $color-white;
+  height: 50px;
+}
+
+.filter-check {
+  display: flex;
+  align-items: center;
+
+  & > p {
+    margin: 0px;
+    padding: 10px;
+  }
+}
+
+.filter-title {
+  font-size: $font-filter-title;
+  padding: 20px 0;
+}

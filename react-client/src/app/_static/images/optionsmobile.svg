@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="667" viewBox="0 0 375 667">
+  <defs>
+    <clipPath id="clip-options:mobile">
+      <rect width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="options:mobile" clip-path="url(#clip-options:mobile)">
+    <rect width="375" height="667" fill="#fff"/>
+    <path id="Path_19" data-name="Path 19" d="M177,6915l105-124.7V6915Z" transform="translate(93 -6248)" fill="#00d0f0"/>
+    <path id="Path_20" data-name="Path 20" d="M177,6874.3l70.733-84v84Z" transform="translate(127.267 -6207.304)" fill="#008da3"/>
+    <g id="Group_70" data-name="Group 70">
+      <path id="Path_23" data-name="Path 23" d="M177,6915l105-124.7V6915Z" transform="translate(-6540 282) rotate(-90)" fill="#00d0f0"/>
+      <path id="Path_24" data-name="Path 24" d="M177,6874.3l70.733-84v84Z" transform="translate(-6499.304 247.733) rotate(-90)" fill="#008da3"/>
+      <path id="Path_21" data-name="Path 21" d="M228.117,6287.533,212,6303.65" transform="translate(317 -6275)" fill="none" stroke="#f9f9f9" stroke-width="4"/>
+      <path id="Path_22" data-name="Path 22" d="M16.117,0,0,16.117" transform="translate(545.117 12.533) rotate(90)" fill="none" stroke="#f9f9f9" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

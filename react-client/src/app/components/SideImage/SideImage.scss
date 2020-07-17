@@ -1,0 +1,13 @@
+@import '../../_sass/abstracts/_variables.scss';
+
+.login-left-pannel {
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: $image-size-desktop-login;
+    height: $image-size-desktop-login;
+  }
+}
